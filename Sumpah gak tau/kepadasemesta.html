@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" type="text/css" href="kepadasemesta.css" />
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- script untuk login di awal -->
+    <script>
+        var username = prompt("Masukkan Username!")
+        if (username === '') {
+            alert("Harus Diisi!")
+                username
+        }else if (username === '') {
+
+        }else {
+            var password = prompt("Masukkan password!")
+            if(password == "makarelkeren") {
+                alert("Login Berhasil!")            
+                alert("Selamat Datang!")
+            } else {
+                alert("Password Salah!")
+                username
+            }
+        }
+             
+    </script>
+
+    <section>
+        <!--- navigation --->
+        <nav>
+            <!--- logo --->
+            <a href="#" class="logo">Carolina's Portfolio</a>
+            <!--- menu --->
+            <ul>
+                <li><a href="aboutme.html" class="active">About Me</a></li>
+                <li><a href="creations.html" class="active">My Creations</a></li>
+                <li><a href="contact.html">Contact Personal</a></li>
+            </ul>
+        </nav>
+
+        <!--- text --->
+        <div class="text-container">
+            <p>Hello,</p>
+            <p>I'M KAR</p>
+            <p>Just normal robot with feelings</p>
+            <p>A pisces girl who loves music, reading any books
+                <br>playing basketball and of course writing.
+            </p>
+            <button class="anjay-btn"><a href="#contactperson"
+                    onclick="alert('Laman ini akan mengarahkan anda menuju bagian Contact Person')">Know Me
+                    More</a></button>
+            <button onclick="alert('Laman ini akan mengarahkan anda menuju bagian Karya')" class="egk-tw"><a
+                    href="#karya"> Creation </a></button>
+        </div>
+        <!-- model -->
+        <img alt="model" class="model" src="teanjaymabar.jpg">
+    </section>
+
+    <!-- services -->
+    <div class="services" id="karya">
+        <!--text-->
+        <div class="services-text">
+            <p>My Creation </p>
+            <p>One of my hobbies is writing. Sometimes whenever I feel kinda sad, or full of love, or just randomly want
+                to writing, I always post it on my tumblr @terminalrindu. So in case you want to read my rhyme, just
+                check on it. But before that, I'm just a newbie on it, so please don't put too much expectation on my
+                creations.</p>
+        </div>
+
+        <div class="box-container">
+            <!--- 1 --->
+            <div class="box-1">
+                <span>1</span>
+                <p class="heading">Double K</p>
+                <p class="details">Kamu istimewa. Jatuh cinta kepadamu rasanya beda. Kamu dan aku adalah dua orang keras
+                    kepala yang bertemu, kemudian semoga terus menyatu. Tapi, jika diminta ...</p>
+                <button><a href="doublek.html">Read More</a></button>
+            </div>
+            <!--- 2 --->
+            <div class="box-2">
+                <span>2</span>
+                <p class="heading">Ditemani Tangis</p>
+                <p class="details">Seorang wanita pernah memberitahuku,
+                    perihal kebahagiaan dan kesedihan,
+                    yang selalu saja datang dengan rutin,
+                    bahkan tak diharapkan, tetapi ada tujuannya..</p>
+                <button>Read More</button>
+            </div>
+            <!--- 3 --->
+            <div class="box-3">
+                <span>3</span>
+                <p class="heading">I. Menjadi Manusia</p>
+                <p class="details">"Bukannya, kita sudah menjadi manusia, ya?"
+
+                    .
+
+                    Gelak tawa tak henti mendominasi angkringan tua ini. Siapa yang tak terkekeh geli bila Setra adalah
+                    rekan obrol yang kita hadapi.</p>
+                <button>Read More</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+<!-- footer -->
+<footer>
+    <p>Know Me More!</p>
+
+    <!--paragraph-->
+    <p>I'm not always on the phone 24/7. But sometimes when I'm on my phone, I'm rarely checking my notification. I
+        always open my twitter account, so if you want to talk to me, just knock my twitter's dm. Thankyou.</p>
+    <!--social-->
+    <div class="social-icons" id="contactperson">
+        <a href="https://wa.me/6281216635906?text=hai karel!%20saya%20tertarik%20untuk%20berteman%20denganmu"
+            target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://twitter.com/kepadasemesta" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://instagram.com/k_areel" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://terminalrindu.tumblr.com/" target="_blank"><i class="fab fa-tumblr"></i></a>
+    </div>
+
+    <!--copyright-->
+    <p class="copyright">Copyright by Niagahoster Tutorial</p>
+</footer>
+
+<!--social-attach-bar-->
+<div class="social">
+    <a href="https://wa.me/6281216635906?text=hai karel!%20saya%20tertarik%20untuk%20berteman%20denganmu"
+        target="_blank"><i class="fab fa-whatsapp"></i></a>
+    <a href="https://twitter.com/kepadasemesta" target="_blank"><i class="fab fa-twitter"></i></a>
+    <a href="https://instagram.com/k_areel" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://terminalrindu.tumblr.com/" target="_blank"><i class="fab fa-tumblr"></i></a>
+</div>
+</footer>
+
+</html>
